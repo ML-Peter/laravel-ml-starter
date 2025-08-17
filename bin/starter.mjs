@@ -23,7 +23,8 @@ const main = async () => {
   shell.exec('npm install');
 
   // Configuration Laravel
-  shell.exec('cp .env.example .env');
+  const copyCmd = process.platform === 'win32' ? 'copy .env.example .env' : 'cp .env.example .env';
+  shell.exec(copyCmd);
   shell.exec('php artisan key:generate');
   shell.exec('php artisan migrate --seed');
   shell.exec('npm run build');

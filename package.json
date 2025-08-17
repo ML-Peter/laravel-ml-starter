@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CLI pour installer automatiquement le LaravelDaily Starter Kit",
   "bin": {
-    "laravel-ml-starter": "./bin/starter.mjs"
+    "laravel-blade-starter": "./bin/starter.mjs"
   },
   "preferGlobal": true,
   "type": "module",

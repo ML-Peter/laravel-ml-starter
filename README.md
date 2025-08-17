@@ -1,10 +1,11 @@
 
-# Laravel ML Starter
+# Laravel Blade Starter
 
-**Laravel ML Starter** est un outil CLI qui permet d’installer et de configurer automatiquement le **LaravelDaily Starter Kit**.
+**Laravel Blade Starter** est un outil CLI qui permet d’installer et de configurer automatiquement le **LaravelDaily Starter Kit**.
 En une commande, tu obtiens un projet Laravel prêt à l’emploi avec authentification, migrations et compilation des assets.
 
 ## 🚀 Installation
+
 
 Clone le dépôt et installe l’outil globalement :
 
@@ -14,18 +15,20 @@ cd laravel-ml-starter
 npm install -g .
 ```
 
+
 Vérifie que l’installation fonctionne :
 
 ```bash
-laravel-ml-starter --version
+laravel-blade-starter --version
 ```
 
 ## ⚡ Utilisation
 
+
 Lance la commande :
 
 ```bash
-laravel-ml-starter
+laravel-blade-starter
 ```
 
 Tu seras guidé par un assistant interactif :
