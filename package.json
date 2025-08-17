@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "CLI pour installer automatiquement le LaravelDaily Starter Kit",
   "bin": {
-    "laravel-ml-starter": "./bin/starter.js"
+    "laravel-ml-starter": "./bin/starter.mjs"
   },
   "preferGlobal": true,
+  "type": "module",
   "dependencies": {
-    "inquirer": "^9.0.0",
-    "simple-git": "^3.0.0",
-    "node-fetch": "^3.0.0",
-    "shelljs": "^0.8.0"
+    "inquirer": "^9.3.7",
+    "node-fetch": "^3.3.2",
+    "shelljs": "^0.8.5",
+    "simple-git": "^3.28.0"
   }
 }
